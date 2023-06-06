@@ -1,0 +1,77 @@
+---
+name: app_1
+description: A new Flutter project.
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  sqflite: ^2.2.0+3
+  intl: ^0.17.0
+  bloc: ^8.1.0
+  flutter_bloc: ^8.1.2
+  hexcolor: ^3.0.1
+  shared_preferences: ^2.0.15
+  webview_flutter: ^3.0.4
+  smooth_page_indicator: ^1.0.0+2
+  fluttertoast: ^8.1.1
+  carousel_slider: ^4.2.0
+  firebase_core: ^2.4.0
+  firebase_auth: ^4.2.1
+  cloud_firestore: ^4.2.0
+  image_picker: ^0.8.6
+  firebase_storage: ^11.0.10
+  desktop_window: ^0.4.0
+  responsive_builder: ^0.4.3
+  google_fonts: ^4.0.4
+  audioplayers: ^3.0.1
+  http: ^0.13.5
+  modal_progress_hud_nsn: ^0.3.0
+  provider: ^6.0.5
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  font_awesome_flutter: ^10.4.0
+  go_router: ^7.0.2
+  dartz: ^0.10.1
+  dio: ^5.1.2
+  get_it: ^7.6.0
+  equatable: ^2.0.5
+  cached_network_image: ^3.2.3
+  url_launcher: ^6.1.11
+  flexible_scrollbar: ^0.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+  hive_generator: ^2.0.0
+  build_runner: ^2.3.3
+flutter:
+  uses-material-design: true
+  assets:
+  - assets/
+  - assets/food_pics/
+  - assets/magazine_pics/
+  - assets/sample_data/
+  - assets/profile_pics/
+  - assets/images_toku/numbers/
+  - assets/sounds/numbers/
+  - assets/images_toku/family_member/
+  - assets/sounds/family/
+  - assets/images_toku/colours/
+  - assets/sounds/colors/
+  - assets/sounds/phrases/
+  - assets/weather_images/
+  - assets/chat_app/
+  - assets/images/
+  - assets/book_app/
+  fonts:
+  - family: Pacifico
+    fonts:
+    - asset: assets/fonts/Pacifico-Regular.ttf
+  - family: Poppins
+    fonts:
+    - asset: assets/fonts/Poppins-Regular.ttf
